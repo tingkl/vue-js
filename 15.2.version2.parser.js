@@ -285,6 +285,4 @@ function tokenzie(str) {
     }
     return tokens;
 }
-
-const tokens = tokenzie(`<p name="1" id='ff  f33 ' v-if="vIf" emptyProp>  vu  e  <a @click="doClick" blankProp >  thisisa  </a> </p>`)
-console.log(tokens)
+module.exports = tokenzie;
